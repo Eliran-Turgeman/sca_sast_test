@@ -1,0 +1,15 @@
+{
+  "name": "vulnerable-app",
+  "version": "1.0.0",
+  "description": "App with known vulnerabilities for testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "lodash": "4.17.4",  // Known vulnerabilities in this version
+    "mongoose": "5.4.0", // Known vulnerabilities in this version
+    "marked": "0.3.5",   // Known vulnerabilities in this version
+    "jquery": "2.2.4"    // Known vulnerabilities in this version
+  }
+}
